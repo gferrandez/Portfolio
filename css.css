@@ -1,0 +1,689 @@
+@keyframes ModelatgeAnim{
+    50% {transform: rotateY(180deg) scale(1);}
+    100% {transform: rotateY(180deg) scale(7);}
+}
+
+@keyframes MeAnim{
+    0% {transform: scale(0);  opacity:0.0;}
+    100% {transform: scale(1);  opacity:0.9;}
+}
+
+.index{
+    width: 1920px;
+    height: 1080px;
+    background-color:slategray;
+    margin: -10px;
+    position: fixed;
+    background-image: url(Media/imatges/Landscape_Nit.png);
+    background-size: cover;
+}
+
+.Modeling{
+    width: 1920px;
+    height: 1080px;
+    background-color:yellowgreen;
+    margin: -10px; 
+}
+
+
+.CssB{
+    width: 1920px;
+    height: 1080px;
+    background-color:teal;
+    margin: -10px;
+}
+
+.imatgesM{
+    width: 46%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;  
+}
+.imatgesM2{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;  
+}
+
+.imatgesM3{
+    width: 62%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;  
+}
+.imatgesS{
+    position: absolute;
+    top: 2110px;
+    left:938px;  
+}
+
+.link1{
+    position: absolute;
+    left: 1300px;
+    top: 588px;
+}
+
+.link2{
+    position: absolute;
+    left: 400px;
+    top: 588px;
+}
+
+.link3{
+    position: absolute;
+    left: 400px;
+    top: 1088px;
+}
+
+.link4{
+    position: absolute;
+    left: 1300px;
+    top: 1088px;
+}
+
+.link5{
+    position: absolute;
+    left: 1300px;
+    top: 1588px;
+}
+
+
+.link6{
+    position: absolute;
+    left: 400px;
+    top: 1588px;
+}
+
+
+.divImatges{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.back{
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    height: 70px;
+    width: 70px;
+}
+
+div.MeAll{
+    background-color: black;
+    position: fixed;
+    top: 200px;
+    left: 680px;
+    width: 600px;
+    height: 700px;
+    opacity: 0.9;
+    border-left: 4px, 4px, 4px, 4px;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    animation: MeAnim 1s;
+    transform: scale(1);
+}
+
+
+div.MeSkills{
+    background-color: black;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    width: 400px;
+    height: 700px;
+    opacity: 0.9;
+    border-left: 4px, 4px, 4px, 4px;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    animation: MeAnim 1.5s;
+    transform: scale(1);
+}
+
+
+div.MeExp{
+    background-color: black;
+    position: fixed;
+    top: 200px;
+    left: 1400px;
+    width: 400px;
+    height: 700px;
+    opacity: 0.9;
+    border-left: 4px, 4px, 4px, 4px;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    animation: MeAnim 1.5s;
+    transform: scale(1);
+}
+
+.star{
+    width: 40px;  
+}
+
+.textME{
+    font-size: 20px;
+    color: beige;
+    margin-left: 20px;
+    margin-right: 10px;
+    opacity: 0.9;
+    
+    
+}
+
+.textMESkills{
+    font-size: 30px;
+    color: beige;
+    margin-left: 20px;
+    margin-right: 10px;
+    opacity: 0.9;
+    text-align: center; 
+}
+
+.textMESkills2{
+    font-size: 20px;
+    color: beige;
+    margin-left: 20px;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+
+.contact{
+    background-color: black;
+    position: fixed;
+    top: 200px;
+    left: 680px;
+    width: 600px;
+    height: 600px;
+    opacity: 0.9;
+    border-left: 4px, 4px, 4px, 4px;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-radius: 30px 30px 30px 30px;
+    animation: MeAnim 1s;
+    transform: scale(1);
+  
+}
+
+
+.capsalera{
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 80px;
+    
+}
+
+.txtModeling{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color:yellowgreen;
+    position: fixed;
+    top: -40px;
+    left: 100px;
+    border-left: 4px;
+    border-left-color: yellowgreen;
+    border-left-style: solid;
+    padding-left: 7px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin-left: 35px;
+    
+    
+    
+}
+
+.txtTexturing{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color:skyblue;
+    position: fixed;
+    top: -40px;
+    left: 100px;
+    border-left: 4px;
+    border-left-color: skyblue;
+    border-left-style: solid;
+    padding-left: 7px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin-left: 35px; 
+}
+
+
+.txtCss{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color:skyblue;
+    position: fixed;
+    top: -40px;
+    left: 100px;
+    border-left: 4px;
+    border-left-color: skyblue;
+    border-left-style: solid;
+    padding-left: 7px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin-left: 35px;  
+    
+}
+
+
+
+.txtAnimation{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color:gold;
+    position: fixed;
+    top: -40px;
+    left: 100px;
+    border-left: 4px;
+    border-left-color: gold;
+    border-left-style: solid;
+    padding-left: 7px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin-left: 35px;
+}
+
+
+
+.txtIlumination{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color:coral;
+    position: fixed;
+    top: -40px;
+    left: 100px;
+    border-left: 4px;
+    border-left-color: coral;
+    border-left-style: solid;
+    padding-left: 7px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin-left: 35px; 
+}
+
+
+.txtIllustration{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    color:purple;
+    position: fixed;
+    top: -40px;
+    left: 100px;
+    border-left: 4px;
+    border-left-color: purple;
+    border-left-style: solid;
+    padding-left: 7px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin-left: 35px;
+    
+    
+    
+}
+.Texturing{
+    width: 1920px;
+    height: 1080px;
+    background-color:skyblue;
+    margin: -10px;
+    
+    
+}
+
+.Iluminacio{
+    width: 1920px;
+    height: 1080px;
+    background-color:coral;
+    margin: -10px;
+    
+}
+
+.Ilustracio{
+    width: 1920px;
+    height: 1080px;
+    background-color:purple;
+    margin: -10px;
+    
+    
+}
+
+.Animacio{
+    width: 1920px;
+    height: 1080px;
+    background-color:gold;
+    margin: -10px;
+    
+}
+
+.Css{
+    width: 1920px;
+    height: 1080px;
+    background-color:cadetblue;
+    margin: -10px;
+    position: fixed;
+    
+}
+
+.text{
+    margin-top: 150px;
+}
+
+
+
+li.apartatsLI {
+    display: inline-block;
+    font-size: 280%;
+    color: greenyellow;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-family: Beach;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+}
+
+
+
+li.apartatsLI:hover {
+    border-bottom: 6px;
+    border-bottom-color: greenyellow;
+    border-bottom-style: solid; 
+}
+
+ul.apartatsUL{
+    position: fixed;
+    top: 10px;
+    left: 570px;
+}
+
+div.apartats{
+   
+    width: 1920px;
+    height: 100px;
+    border-bottom: 2px;
+    border-bottom-color:greenyellow;
+    border-bottom-style: solid;
+    padding-bottom: 0px;
+}
+
+
+@font-face {
+    font-family: Beach;
+    src: url(Beach.ttf);
+}
+
+
+li.modalitatsLI, .modalitatsLI_Tx, .modalitatsLI_Mod, .modalitatsLI_Ilus, .modalitatsLI_Anim, .modalitatsLI_Ilum, .modalitatsLI_Css{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 60px 60px 60px 60px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    color:greenyellow;
+    justify-content: center;
+    padding: 0px;
+    vertical-align: middle;
+    cursor:pointer;
+    
+}
+
+.lateral{
+    position: fixed;
+    top: 120px;
+    left: 50px;
+    width: 220px;
+    height: 850px;
+    background-color: black;
+    border-radius: 60px 60px 60px 60px;
+    border-color: greenyellow;
+    border-style:solid; 
+    
+}
+
+.GF{
+
+    position: fixed;
+    top: -15px;
+    left: 10px;
+    color: greenyellow;
+    font-size: 40px;
+}
+
+
+.GF:hover{
+    color: yellow;
+    transition-duration: 1s;
+    
+
+}
+
+
+
+.modalitatsLI_Mod:hover{
+    background-image: url(Media/imatges/CarroClay.png); 
+    background-size:cover;
+    background-position:center;
+    transition-duration: 1s;
+    
+}
+
+.modalitatsLI_Tx:hover{
+    background-image: url(Media/imatges/untitled666.png); 
+    background-size:cover;
+    background-position:center;
+    transition-duration: 1s;
+    
+}
+
+.modalitatsLI_Ilum:hover{
+    background-image: url(Media/imatges/Iuminacio_Volumetrica_GenisFerrandez.png); 
+    background-size:cover;
+    background-position:center;
+    transition-duration: 1s;  
+}
+
+.modalitatsLI_Ilus:hover{
+    background-image: url(Media/imatges/Landscape_Nit.png); 
+    background-size:cover;
+    background-position:center;
+    transition-duration: 1s;   
+}
+
+.modalitatsLI_Anim:hover{
+    background-image: url(Media/imatges/norman.PNG); 
+    background-size:cover;
+    background-position:center;
+    transition-duration: 1s;   
+}
+
+ .modalitatsLI_Mod_final {
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+    
+    background-color: yellowgreen;
+    animation: ModelatgeAnim 1s;
+     
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0px;
+    color:greenyellow;
+    justify-content: center;
+    vertical-align: middle; 
+}
+
+
+div.modalitats {
+    width: 1400px;
+    position: fixed;
+    top: 80px;
+    left: 240px;  
+}
+
+
+.modalitatsLI_Tx_final{
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+    
+    background-color: skyblue;
+    animation: ModelatgeAnim 1s;
+    
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0px;
+    color:greenyellow;
+    justify-content: center;
+    line-height: 400px;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+
+.modalitatsLI_Ilus_final{
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+    
+    background-color: purple;
+    animation: ModelatgeAnim 1s;
+    
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0px;
+    color:greenyellow;
+    justify-content: center;
+    line-height: 400px;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+
+.modalitatsLI_Anim_final{
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+    
+    background-color: gold;
+    animation: ModelatgeAnim 1s;
+    
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0px;
+    color:greenyellow;
+    justify-content: center;
+    line-height: 400px;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+
+.modalitatsLI_Ilum_final{
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+    
+    background-color: coral;
+    animation: ModelatgeAnim 1s;
+    
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0px;
+    color:greenyellow;
+    justify-content: center;
+    line-height: 400px;
+    justify-content: center;
+    vertical-align: middle;   
+}
+
+.modalitatsLI_Css_final{
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    
+    
+    background-color: teal;
+    animation: ModelatgeAnim 1s;
+    
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style:solid;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 0px;
+    color:greenyellow;
+    justify-content: center;
+    line-height: 400px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.modalitatsLI_Css:hover{
+    background-image: url(Media/imatges/codi.PNG); 
+    background-size:cover;
+    background-position:center;
+    transition-duration: 1s;
+}
+
+
+
